@@ -1,0 +1,111 @@
+@import "color";
+
+@font-face {
+  font-family: 'HS-Regular';
+  src: url('https://gcore.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/HS-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard.css");
+
+body {
+  font-size: 1.5rem;
+  color: $white;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 1.5rem 0;
+  word-break: keep-all;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 1.5rem 0;
+  word-break: keep-all;
+}
+
+h3 {
+  font-size: 2rem;
+  margin: 1.5rem 0;
+  word-break: keep-all;
+}
+
+h4 {
+  font-size: 2rem;
+  margin: 0 0 0.5rem 0;
+  word-break: keep-all;
+}
+
+small {
+  font-size: 75%;
+  word-break: keep-all;
+}
+
+p, .style-p {
+  font-size: 1.5rem;
+  margin: 1.5rem 0;
+  line-height: 1.5em;
+  word-break: keep-all;
+}
+
+a, .style-a {
+  color: $white;
+  text-decoration: none;
+  margin: 1.5rem 0.5em 1.5rem 0;
+  line-height: 1.5em;
+  transition: all 0.5s;
+  word-break: keep-all;
+}
+
+a.small {
+  font-size: 1.2rem;
+  margin: 1.5rem 0.8em 1.5rem 0;
+}
+
+a[href=""] {
+  pointer-events: none;
+  color: $gray;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $fflik;
+}
+
+ul {
+  padding-left: 1em;
+  line-height: 2.0em;
+
+  > li::marker {
+    color: $fflik;
+    font-size: 1.15em;
+    font-weight: bold;
+  }
+
+  ul {
+    list-style-type: none;
+    > li {
+      font-size: 1.2rem;
+      line-height: 1.5em;
+    }
+  }
+}
+
+.clr-fflik {
+  color: $fflik;
+}
+
+.clr-tiny {
+  color: $gray;
+}
+
+.star {
+  color:$star;
+  font-family: HS-Regular, serif;
+  font-size: 1.5rem;
+}

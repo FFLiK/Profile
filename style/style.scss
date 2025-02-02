@@ -1,0 +1,117 @@
+@import "color";
+@import "font-style";
+@import "image-style";
+
+body {
+  background: $black;
+  padding: 9vw 16vw;
+  font-family: "Pretendard", sans-serif;
+  color: $white;
+
+
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none
+}
+
+.animate {
+  opacity: 0;
+  transition: all 1.0s;
+}
+
+.spacer-1em {
+  margin: 1.0em;
+}
+
+.spacer-2em {
+  margin: 2.0em;
+}
+
+.spacer-3em {
+  margin: 3.0em;
+}
+
+.spacer-4em {
+  margin: 4.0em;
+}
+
+.li-icon-type {
+  width: 2em; /* 원하는 너비로 설정 */
+  text-align: center;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 1300px) {
+  .profile-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.profile-about-container {
+  margin: 0 15vw 1em 1em;
+}
+
+@media (max-width: 1300px) {
+  .profile-about-container {
+    margin: 0 0 1em 1em;
+  }
+}
+
+.profile-contact-container {
+  margin: 0 0 1em 1em;
+}
+
+.cv-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.projects-programming-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  flex-wrap: wrap;
+}
+
+.project-box {
+  min-width: 20em;
+
+  display: flex;
+  flex-direction: row;
+  padding: 1em 2em;
+
+  background: $dark-gray;
+  opacity: 0;
+
+  border-left: 7px solid $fflik;
+  border-radius: 15px;
+
+  margin-bottom: 1.5em;
+}
+
+.project-description-box {
+  width: 100%;
+}
+
+.project-icon-box {
+  width: 100px;
+  height: 100%;
+}
+
+.tool-icon-box {
+  display: flex;
+  flex-direction: row;
+  margin: 1.5em;
+}
+
+.tool-division {
+  margin: 0 0 5em 0;
+}
