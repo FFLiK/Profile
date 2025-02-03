@@ -123,7 +123,7 @@ projects = [
         <small>이 프로그램은 악용될 소지가 있어 프로그램 설치 및 소스코드 공개를 제한합니다. 대신 실제 작동 영상을 첨부합니다.</small>
         """,
         "tag" : ["C++", "Macro", "ADOFAI", "Optimization"],
-        "open" : "",
+        "open" : "../display/viewer.html?proj=adofai-macro",
         "icon" : ""
     }
 ]
