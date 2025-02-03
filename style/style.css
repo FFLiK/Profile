@@ -149,6 +149,7 @@ svg.icon {
 
 body {
   background: #1a1c1b;
+  margin: 0;
   padding: 9vw 16vw;
   font-family: "Pretendard", sans-serif;
   color: #E1E1E1;
@@ -156,6 +157,10 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+
+body.display {
+  padding: 5vh 15vw;
 }
 
 .animate {

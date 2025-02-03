@@ -4,15 +4,19 @@
 
 body {
   background: $black;
+  margin: 0;
   padding: 9vw 16vw;
   font-family: "Pretendard", sans-serif;
   color: $white;
-
 
   -webkit-user-select:none;
   -moz-user-select:none;
   -ms-user-select:none;
   user-select:none
+}
+
+body.display {
+  padding: 5vh 15vw;
 }
 
 .animate {
