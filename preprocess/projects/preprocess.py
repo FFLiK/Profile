@@ -81,17 +81,27 @@ def main() :
     DIRECTORY = '../../pages/projects/'
 
     createHTML(DIRECTORY + "dev-desktop.html", desktop.projects)
+    print("Create dev-desktop.html")
     createHTML(DIRECTORY + "dev-embedded.html", embedded.projects)
+    print("Create dev-embedded.html")
     createHTML(DIRECTORY + "dev-game.html", game.projects)
+    print("Create dev-game.html")
     createHTML(DIRECTORY + "dev-mobile.html", mobile.projects)
+    print("Create dev-mobile.html")
     createHTML(DIRECTORY + "dev-web.html", web.projects)
+    print("Create dev-web.html")
     createHTML(DIRECTORY + "dev-others.html", dev_others.projects)
-
+    print("Create dev-others.html")
     createHTML(DIRECTORY + "design-icon.html", icon.projects)
+    print("Create design-icon.html")
     createHTML(DIRECTORY + "design-layout.html", layout.projects)
+    print("Create design-layout.html")
     createHTML(DIRECTORY + "design-uiux.html", uiux.projects)
+    print("Create design-uiux.html")
     createHTML(DIRECTORY + "design-video.html", video.projects)
+    print("Create design-video.html")
     createHTML(DIRECTORY + "design-others.html", design_others.projects)
+    print("Create design-others.html")
     return
 
 if __name__ == '__main__':
