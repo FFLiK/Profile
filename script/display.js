@@ -31,14 +31,23 @@ function displayProject() {
             if (projectType === "img") {
                 document.querySelector(".display-img").style.display = "block";
                 document.querySelector(".display-vid").style.display = "none";
+                document.querySelector(".display-pdf").style.display = "none";
                 document.querySelector(".display-img").src = "files/" + projectResource;
             } else if (projectType === "vid") {
                 document.querySelector(".display-img").style.display = "none";
                 document.querySelector(".display-vid").style.display = "block";
+                document.querySelector(".display-pdf").style.display = "none";
                 document.querySelector(".display-vid-src").src = "files/" + projectResource;
                 document.querySelector(".display-vid").load();
+            } else if (projectType === "pdf") {
+                document.querySelector(".display-img").style.display = "none";
+                document.querySelector(".display-vid").style.display = "none";
+                document.querySelector(".display-pdf").style.display = "block";
+                document.querySelector(".display-pdf").src = "files/" + projectResource;
             } else {
-
+                document.querySelector(".display-img").style.display = "none";
+                document.querySelector(".display-vid").style.display = "none";
+                document.querySelector(".display-pdf").style.display = "none";
             }
         })
         .then(() => {

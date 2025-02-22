@@ -17,7 +17,7 @@ projects = [
             <small>이 프로젝트는 2022년도 한국과학영재학교 R&E 프로그램 중 하나로 수행되었습니다.</small>
         """,
         "tag" : ["C++", "Programming Language", "Interpreter", "Turing Complete", "Hangul"],
-        "open" : "",
+        "open" : "../display/viewer.html?proj=hangul",
         "github" : "https://github.com/FFLiK-Archive/Hangul",
         "icon" : "../res/projects/Hangul.png"
     },

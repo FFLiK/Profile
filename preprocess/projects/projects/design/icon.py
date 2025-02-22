@@ -11,7 +11,8 @@ projects = [
         이후 Adobe Photoshop을 이용하여 디자인을 완성하였습니다. <br>
         """,
         "tag" : ["FFLiK", "Personal Logo"],
-        "open" : "",
+        "open" : "../display/viewer.html?proj=logo-fflik",
+        "download" : "file",
         "icon" : "../res/icon.png"
     },
     {
@@ -25,7 +26,8 @@ projects = [
         Adobe Photoshop을 활용하여 디자인되었습니다.
         """,
         "tag" : ["TALOS", "FTC Team Logo"],
-        "open" : "",
+        "open" : "../display/viewer.html?proj=logo-talos",
+        "download" : "file",
         "icon" : "../res/projects/FTC.png"
     },
     {
@@ -40,7 +42,8 @@ projects = [
             이 작품은 Adobe Photoshop을 활용하여 디자인되었습니다.
         """,
         "tag" : ["CLiF", "Personal Logo"],
-        "open" : "",
+        "open" : "../display/viewer.html?proj=logo-clif",
+        "download" : "file",
         "icon" : "../res/projects/CLiF.png"
     },
     {

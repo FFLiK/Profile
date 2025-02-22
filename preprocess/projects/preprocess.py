@@ -1,4 +1,5 @@
 import copy
+import json
 
 from bs4 import BeautifulSoup
 
@@ -39,10 +40,21 @@ def writeProjects(content, projects):
             description_div.find('a', class_="project-open-link").decompose()
         else :
             description_div.find('a', class_="project-open-link")['href'] = project['open']
+            if "display" in project['open']:
+                description_div.find('a', class_="project-open-link")['onclick'] = "window.open(this.href,'Display','width=800, height=800'); return false;"
         if project.get('download') is None:
             description_div.find('a', class_="project-download-link").decompose()
         else :
-            description_div.find('a', class_="project-download-link")['href'] = project['download']
+            if project['download'] == "file":
+                file_name = project['open'].split('=')[-1]
+                #read json
+                with open('../../display/projects.json', 'r', encoding="utf-8") as file:
+                    projects = file.read() #json file
+                    projects = json.loads(projects)
+                description_div.find('a', class_="project-download-link")['href'] = "../display/files/" + projects[file_name]['res'];
+                description_div.find('a', class_="project-download-link")['download'] = projects[file_name]['title']
+            else:
+                description_div.find('a', class_="project-download-link")['href'] = project['download']
         if project.get('github') is None:
             description_div.find('a', class_="project-github-link").decompose()
         else :

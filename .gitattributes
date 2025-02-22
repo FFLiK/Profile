@@ -1,6 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
-
 # Exclude files
 CNAME merge=ours
 README.md merge=ours
+*.mp4 filter=lfs diff=lfs merge=lfs -text

@@ -3,62 +3,139 @@
     "title" : "ADOFAI MACRO",
     "description" : "불과 얼음의 춤 게임을 자동으로 플레이하는 매크로",
     "type" : "vid",
-    "res" : "adofai-macro.mp4"
+    "res" : "dev/adofai-macro.mp4"
+  },
+
+  "beatcrusher" : {
+    "title" : "Beat Crusher",
+    "description" : "앞에서 부터 날아 오는 블록을 박자에 맞추어 부수는 리듬 게임",
+    "type" : "vid",
+    "res" : "dev/beatcrusher.mp4"
+  },
+
+  "hangul" : {
+    "title" : "Hangul",
+    "description" : "한글, 난해한 프로그래밍 언어 제작 프로젝트",
+    "type" : "pdf",
+    "res" : "dev/hangul.pdf"
   },
 
   "24ksasf-pstr" : {
     "title" : "KSASF 2024 Poster",
     "description" : "KSA 과학축전 2024 포스터 디자인",
     "type" : "img",
-    "res" : "24ksasf-pstr.jpg"
+    "res" : "design/24ksasf-pstr.jpg"
   },
 
   "24ksasf-aud-col" : {
     "title" : "KSASF 2024 Banners of The Main Auditorium's Columns",
     "description" : "KSA 과학축전 2024 대강당 기둥 현수막 디자인",
     "type" : "img",
-    "res" : "24ksasf-aud-col.png"
+    "res" : "design/24ksasf-aud-col.png"
   },
 
   "talos-bnr" : {
     "title" : "FTC 2023-2024 Season Team TALOS Banner",
     "description" : "FTC팀 TALOS의 세계대회 출전을 기념하여 제작한 시즌 현수막 디자인",
     "type" : "img",
-    "res" : "talos-bnr.png"
+    "res" : "design/talos-bnr.png"
   },
 
   "23sac-pstr" : {
     "title" : "2023 SAC Poster",
     "description" : "한국과학영재학교 가을 축제 SAC 2023 포스터 디자인",
     "type" : "img",
-    "res" : "23sac-pstr.jpg"
+    "res" : "design/23sac-pstr.jpg"
   },
 
   "23ksasf-aud-hall" : {
       "title" : "KSASF 2023 Banners of The Main Auditorium & Main Building",
       "description" : "KSA 과학축전 2023 대강당 및 본관 현수막 디자인",
       "type" : "img",
-      "res" : "23ksasf-aud-hall.png"
+      "res" : "design/23ksasf-aud-hall.png"
   },
 
   "23saf-hall" : {
       "title" : "2023 SAF Banner of The Main Building",
       "description" : "한국과학영재학교 봄 축제 SAF 2023 본관 현수막 디자인",
       "type" : "img",
-      "res" : "23saf-hall.png"
+      "res" : "design/23saf-hall.png"
   },
 
   "22sac-aud" : {
       "title" : "2022 SAC Banner of The Main Auditorium",
       "description" : "한국과학영재학교 가을 축제 SAC 2022 대강당 현수막 디자인",
       "type" : "img",
-      "res" : "22sac-aud.png"
+      "res" : "design/22sac-aud.png"
   },
 
-    "22saf-pstr" : {
-        "title" : "2022 SAF Poster",
-        "description" : "한국과학영재학교 봄 축제 SAF 2022 포스터 디자인 보조",
-        "type" : "img",
-        "res" : "22saf-pstr.png"
-    }
+  "22ksasf-aud" : {
+    "title" : "KSASF 2022 Banner of The Main Auditorium",
+    "description" : "KSA 과학축전 2023 대강당 현수막 디자인",
+    "type" : "img",
+    "res" : "design/22ksasf-aud.jpg"
+  },
+
+  "22saf-pstr" : {
+      "title" : "2022 SAF Poster",
+      "description" : "한국과학영재학교 봄 축제 SAF 2022 포스터 디자인 보조",
+      "type" : "img",
+      "res" : "design/22saf-pstr.png"
+  },
+
+  "logo-fflik" : {
+    "title" : "FFLiK Logo",
+    "description" : "FFLiK 개인 로고 디자인",
+    "type" : "img",
+    "res" : "design/fflik.png"
+  },
+
+  "logo-talos" : {
+    "title" : "Team TALOS Logo",
+    "description" : "FTC팀 TALOS 로고 디자인",
+    "type" : "img",
+    "res" : "design/talos.png"
+  },
+
+  "logo-clif" : {
+    "title" : "CLIF Logo",
+    "description" : "CLIF 로고 디자인",
+    "type" : "img",
+    "res" : "design/clif.png"
+  },
+
+  "bdms-intro" : {
+    "title" : "Middle School Festival Video",
+    "description" : "중학교 축제 영상 중 인트로 부분",
+    "type" : "vid",
+    "res" : "design/bdms-intro.mp4"
+  },
+
+  "graduation" : {
+    "title" : "Middle School Graduation Ceremony Video",
+    "description" : "중학교 졸업식 영상 제작",
+    "type" : "vid",
+    "res" : "design/graduation.mp4"
+  },
+
+  "vga-practice" : {
+    "title" : "VGA for Motion Graphic Practice",
+    "description" : "모션 그래픽 연습용 VGA 영상",
+    "type" : "vid",
+    "res" : "design/vga-practice.mp4"
+  },
+
+  "talos-mg" : {
+    "title" : "Team TALOS Logo Motion Graphic",
+    "description" : "팀 TALOS 로고 모션 그래픽 영상",
+    "type" : "vid",
+    "res" : "design/talos-mg.mp4"
+  },
+
+  "robot-reveal" : {
+    "title" : "FTC 2024-2025 Season Team TALOS Robot Reveal Video",
+    "description" : "FTC팀 TALOS의 2024-2025 시즌 로봇 공개 영상",
+    "type" : "vid",
+    "res" : "design/robot-reveal.mp4"
+  }
 }
