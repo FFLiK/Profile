@@ -3,4 +3,4 @@
 # Exclude files
 CNAME merge=ours
 README.md merge=ours
-#*.mp4 filter=lfs diff=lfs merge=lfs -text
+.\display\files\dev\beatcrusher.mp4 filter=lfs diff=lfs merge=lfs -text
