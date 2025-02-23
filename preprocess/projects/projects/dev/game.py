@@ -14,9 +14,9 @@ projects = [
         "summary" : "앞에서 부터 날아 오는 블록을 박자에 맞추어 부수는 리듬 게임",
         "description" : """ """,
         "tag" : ["C++", "SDL2", "Game Development", "Collision Detection"],
-        "open" : "",
-        "download" : "",
-        "github" : "",
+        "open" : "../display/viewer.html?proj=beatcrusher",
+        "download" : "https://github.com/FFLiK-Archive/BeatCrusher/releases",
+        "github" : "https://github.com/FFLiK-Archive/BeatCrusher",
         "icon" : "../res/projects/BeatCrusher.png"
     }
 ]
