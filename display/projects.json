@@ -10,7 +10,7 @@
     "title" : "Beat Crusher",
     "description" : "앞에서 부터 날아 오는 블록을 박자에 맞추어 부수는 리듬 게임",
     "type" : "vid",
-    "res" : "dev/beatcrusher.mp4"
+    "res" : "dev/beatcrusher-vid.mp4"
   },
 
   "hangul" : {
