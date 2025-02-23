@@ -51,7 +51,7 @@ def writeProjects(content, projects):
                 with open('../../display/projects.json', 'r', encoding="utf-8") as file:
                     projects = file.read() #json file
                     projects = json.loads(projects)
-                description_div.find('a', class_="project-download-link")['href'] = "../display/files/" + projects[file_name]['res'];
+                description_div.find('a', class_="project-download-link")['href'] = "https://assets.profile.fflik.kr/" + projects[file_name]['res'];
                 description_div.find('a', class_="project-download-link")['download'] = projects[file_name]['title']
             else:
                 description_div.find('a', class_="project-download-link")['href'] = project['download']
