@@ -3,7 +3,15 @@ projects = [
         "title" : "FTC 2024-2025 Season Team TALOS Robot Reveal Video",
         "date" : "2025.1",
         "summary" : "FTC팀 TALOS의 2024-2025 시즌 로봇 공개 영상",
-        "description" : "",
+        "description" : """
+            이 영상은 FTC팀 TALOS의 FTC 2024-2025 Into The Deep 시즌의 로봇 공개 영상(Robot Reveal Video) 입니다. <br>
+            로봇의 3D 모델은 Fusion 360을 활용해 모델링 되었고, 이후 Blender를 활용해 채색 및 카메라 모션이 추가되었습니다.
+            모델링 및 애니메이션 작업은 한국과학영재학교 로봇 연구회 KROS의 다른 팀원이 담당하였으며,
+            KROS의 아웃리치 담당 팀원이 완성한 초안 영상을 수정하여 최종적인 영상이 만들어졌습니다. <br>
+            이 영상에서 제가 담당한 부분은 음악 박자에 맞춘 영상 컷편집, 모델링된 로봇 뒤에 블러 처리된 효과 추가 작업,
+            텍스트 효과 추가, 그리고 TALOS 로고 모션 그래픽 제작 및 삽입 입니다. <br>
+            영상 편집은 Adobe Premiere Pro를 사용하여 이루어졌습니다.
+        """,
         "tag" : ["Video Editing", "Video Effect"],
         "download" : "file",
         "open" : "../display/viewer.html?proj=robot-reveal",
@@ -13,20 +21,17 @@ projects = [
         "title" : "Team TALOS Logo Motion Graphic",
         "date" : "2025.1",
         "summary" : "팀 TALOS 로고 모션 그래픽 영상",
-        "description" : "",
+        "description" : """
+            한국과학영재학교 로봇 연구회 KRS 및 한국 FTC팀 TALOS의 로고에 모션을 추가한 로고 모션 그래픽 영상입니다. <br>
+            마스킹을 활용하여 로고의 윤곽이 그려지는 효과를 추가하였고,
+            투구의 머리 보호개가 움직이는 모션과 톱니바퀴가 돌아가는 모션을 추가하여 역동적인 로고의 모습을 표현하였습니다.
+            트렌지션의 가감속을 조절하여 풍부한 모션을 구현하였습니다. <br>
+            로고의 이미지는 Adobe Photoshop의 펜툴을 활용하여 제작되었으며,
+            모션은 Adobe After Effect를 활용하여 완성되었습니다.
+        """,
         "tag" : ["Motion Graphic"],
         "download" : "file",
         "open" : "../display/viewer.html?proj=talos-mg",
-        "icon" : ""
-    },
-    {
-        "title" : "VGA for Motion Graphic Practice",
-        "date" : "2023.2-2023.3",
-        "summary" : "모션 그래픽 연습용 VGA 영상",
-        "description" : "",
-        "tag" : ["Motion Graphic", "VGA"],
-        "download" : "file",
-        "open" : "../display/viewer.html?proj=vga-practice",
         "icon" : ""
     },
     {
