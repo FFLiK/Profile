@@ -21,6 +21,9 @@ def writeProjects(content, projects):
     template = content.find('div', class_='project-box')
 
     for project in projects:
+        if project.get('hidden') is not None :
+            continue
+
         project_div = copy.deepcopy(template)
         description_div = project_div.find('div', class_='project-description-box')
         description_div.find('h4', class_="project-title").string = project['title']
