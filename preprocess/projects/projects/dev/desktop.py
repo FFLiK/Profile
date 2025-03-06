@@ -124,6 +124,7 @@ projects = [
         """,
         "tag" : ["C++", "Macro", "ADOFAI", "Optimization"],
         "open" : "../display/viewer.html?proj=adofai-macro",
-        "icon" : ""
+        "icon" : "",
+        "hidden" : "true"
     }
 ]
