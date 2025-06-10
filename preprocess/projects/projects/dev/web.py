@@ -12,5 +12,32 @@ projects = [
         "open" : "https://profile.fflik.kr",
         "github" : "https://github.com/FFLiK/Profile",
         "icon" : "../res/icon.png"
+    },
+    {
+        "title" : "Road Runner Guide",
+        "date" : "2025.1",
+        "summary" : "FTC Road Runner 한국어 가이드 웹사이트",
+        "description" : """
+            TODO
+        """,
+        "tag" : ["Web", "Doks", "Jekyll"],
+        "open" : "https://guide.talosftc.com",
+        "github" : "https://github.com/TALOS-25309/RoadrunnerTurorialForKorean",
+        "icon" : "../res/projects/FTC.png"
     }
 ]
+
+'''
+    {
+        "title" : "Open CS",
+        "date" : "2023.2-2023.6",
+        "summary" : "한국과학영재학교 정보과학1 멘토링 웹사이트",
+        "description" : """
+            TODO
+        """,
+        "tag" : ["Web", "Mentoring", "Jekyll"],
+        "open" : "https://opencs-ksa.github.io/",
+        "github" : "https://github.com/FFLiK-Archive/OpenCS",
+        "icon" : ""
+    }
+'''
