@@ -1,8 +1,20 @@
 projects = [
     {
+        "title" : "FTC 2024-2025 Season Robot Controller (Renewal)",
+        "date" : "2025.6 - 진행 중",
+        "summary" : "2024-2025 First Tech Challenge의 오프시즌 대회 Asia-Pacific Open Championship (APOC) 출전 로봇 구동 프로그램",
+        "description" : """
+            현재 대회를 준비중이며, 개발중에 있습니다. <br>
+            <small>이 프로그램은 FTC 2024-2025 Into The Deep 시즌을 위한 코드입니다.</small>
+        """,
+        "tag" : ["JAVA", "Android", "First Tech Challenge", "Into The Deep", "Robotics"],
+        "github" : "",
+        "icon" : "../res/projects/FTC.png"
+    },
+    {
         "title" : "FTC 2024-2025 Season Robot Controller",
         "date" : "2025.1",
-        "summary" : "2024-2025 First Tech Challenge 시즌 로봇 구동 프로그램",
+        "summary" : "2024-2025 First Tech Challenge의 국내 대회 Korea Robot Championship 출전 로봇 구동 프로그램",
         "description" : """
             객체 지향 프로그래밍을 중심으로 하여 계층적인 구조를 설계하였습니다. 
             로봇을 제어하는 OpMode는 Part에 명령을 전달하고, Part는 동작 명령을 수행합니다.
@@ -22,9 +34,9 @@ projects = [
     {
         "title" : "FTC 2023-2024 Season Robot Controller (Renewal)",
         "date" : "2024.3 - 2024.4",
-        "summary" : "2023-2024 First Tech Challenge 시즌 로봇 구동 프로그램",
+        "summary" : "2023-2024 First Tech Challenge의 국제 대회 World Championship 출전 로봇 구동 프로그램",
         "description" : """
-            전체적인 구조는 FTC 2023-2024 PowerPlay 시즌 코드와 유사합니다.
+            클래스 구조는 FTC 2023-2024 PowerPlay 시즌 코드와 유사합니다.
             단, 로봇 구조가 세계 대회를 준비하며 바뀜에 따라, 이에 맞추어 일부 Part 및 OpMode가 수정되었으며,
             Odometry를 사용할 수 있게 되면서, 바퀴 모터 엔코더 대신에 Odometry 센서에 기반한 정확한 Localization으로
             효과적인 자율주행 시스템을 구축하였습니다. 
@@ -41,9 +53,9 @@ projects = [
     {
         "title" : "FTC 2023-2024 Season Robot Controller",
         "date" : "2024.1",
-        "summary" : "2023-2024 First Tech Challenge 시즌 로봇 구동 프로그램",
+        "summary" : "2023-2024 First Tech Challenge의 국내 대회 Korea Robot Championship 출전 로봇 구동 프로그램",
         "description" : """
-            전체적인 구조는 FTC 2023-2024 PowerPlay 시즌 코드와 유사합니다.
+            클래스 구조는 FTC 2023-2024 PowerPlay 시즌 코드와 유사합니다.
             OpMode는 Part를 제어하고, Part는 Hardware를 제어하며, Hardware는 FTC SDK의 하드웨어들의 고급 기능을 제공합니다.
             각 단계로 올라갈수록 더 통합적인 기능을 수행하며, 단계가 내려갈수록 더 세밀한 조정이 가능합니다.<br>
             이 시즌에서는 IMU를 활용한 로봇의 정밀한 각도 측정을 위해 노력하였습니다.
@@ -61,7 +73,7 @@ projects = [
     {
         "title" : "FTC 2022-2023 Season Robot Controller",
         "date" : "2023.1",
-        "summary" : "2022-2023 First Tech Challenge 시즌 로봇 구동 프로그램",
+        "summary" : "2022-2023 First Tech Challenge의 국내 대회 Korea Robot Championship 출전 로봇 구동 프로그램",
         "description" : """
             객체 지향 프로그래밍을 적극 활용하여 코드의 가독성을 높이고, 효율을 높이기 위해 노력하였습니다.
             다양한 객체에 계층을 부여하고, 각 객체가 상호작용하도록 하여 코드의 복잡성을 낮추었습니다.
