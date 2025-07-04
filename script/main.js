@@ -5,6 +5,7 @@ window.onload = function(){
             setIconAnimation();
             setBackgroundIconAnimation();
             openclose();
+            initThemeToggle();
         });
     });
 }
@@ -60,4 +61,52 @@ function openclose() {
             }
         });
     });
+}
+
+function initThemeToggle() {
+    // Check for saved theme preference or default to 'dark'
+    const savedTheme = localStorage.getItem('theme') || 'dark';
+    
+    // Apply the saved theme
+    applyTheme(savedTheme);
+    
+    // Create theme toggle button if it doesn't exist
+    let themeToggle = document.getElementById('theme-toggle');
+    if (!themeToggle) {
+        themeToggle = document.createElement('button');
+        themeToggle.id = 'theme-toggle';
+        themeToggle.className = 'theme-toggle';
+        themeToggle.setAttribute('aria-label', 'Toggle theme');
+        document.body.appendChild(themeToggle);
+    }
+    
+    // Update button icon
+    updateThemeToggleIcon(savedTheme);
+    
+    // Add click event listener
+    themeToggle.addEventListener('click', toggleTheme);
+}
+
+function toggleTheme() {
+    const currentTheme = document.body.classList.contains('light-theme') ? 'light' : 'dark';
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    
+    applyTheme(newTheme);
+    localStorage.setItem('theme', newTheme);
+    updateThemeToggleIcon(newTheme);
+}
+
+function applyTheme(theme) {
+    if (theme === 'light') {
+        document.body.classList.add('light-theme');
+    } else {
+        document.body.classList.remove('light-theme');
+    }
+}
+
+function updateThemeToggleIcon(theme) {
+    const themeToggle = document.getElementById('theme-toggle');
+    if (themeToggle) {
+        themeToggle.innerHTML = theme === 'light' ? '🌙' : '☀️';
+    }
 }
