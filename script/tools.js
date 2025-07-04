@@ -7,6 +7,7 @@ window.onload = function(){
             setIconAnimation();
             setBackgroundIconAnimation();
             openclose();
+            initThemeToggle();
         });
     });
 }
