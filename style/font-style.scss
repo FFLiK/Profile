@@ -62,10 +62,6 @@ a, .style-a {
   word-break: keep-all;
 }
 
-.light-theme a, .light-theme .style-a {
-  color: $light-white;
-}
-
 a.small {
   font-size: 1.2rem;
   margin: 1.5rem 0.8em 1.5rem 0;
@@ -77,16 +73,8 @@ a[href=""] {
   text-decoration: none;
 }
 
-.light-theme a[href=""] {
-  color: $light-gray;
-}
-
 a:hover {
   color: $fflik;
-}
-
-.light-theme a:hover {
-  color: $light-fflik;
 }
 
 ul {
@@ -112,24 +100,12 @@ ul {
   color: $fflik;
 }
 
-.light-theme .clr-fflik {
-  color: $light-fflik;
-}
-
 .clr-tiny {
   color: $gray;
-}
-
-.light-theme .clr-tiny {
-  color: $light-gray;
 }
 
 .star {
   color:$star;
   font-family: HS-Regular, serif;
   font-size: 1.5rem;
-}
-
-.light-theme .star {
-  color: $light-star;
 }
