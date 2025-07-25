@@ -1,14 +1,14 @@
 projects = [
     {
         "title" : "FTC 2024-2025 Season Robot Controller (Renewal)",
-        "date" : "2025.6 - 진행 중",
-        "summary" : "2024-2025 First Tech Challenge의 오프시즌 대회 Asia-Pacific Open Championship (APOC) 출전 로봇 구동 프로그램",
+        "date" : "2025.6 - 2025.7",
+        "summary" : "2024-2025 First Tech Challenge의 Offseason 대회 Asia-Pacific Open Championship (APOC) 출전 로봇 구동 프로그램",
         "description" : """
-            현재 대회를 준비중이며, 개발중에 있습니다. <br>
+            작성중 <br>
             <small>이 프로그램은 FTC 2024-2025 Into The Deep 시즌을 위한 코드입니다.</small>
         """,
         "tag" : ["JAVA", "Android", "First Tech Challenge", "Into The Deep", "Robotics"],
-        "github" : "",
+        "github" : "https://github.com/TALOS-25309/FTC2024-2025_RobotController_V2",
         "icon" : "../res/projects/FTC.png"
     },
     {
@@ -28,7 +28,7 @@ projects = [
             <small>이 프로그램은 FTC 2024-2025 Into The Deep 시즌을 위한 코드입니다.</small>
         """,
         "tag" : ["JAVA", "Android", "First Tech Challenge", "Into The Deep", "Robotics"],
-        "github" : "https://github.com/TALOS-25309/FTC2024-2025_RobotSourceCode",
+        "github" : "https://github.com/TALOS-25309/FTC2024-2025_RobotController",
         "icon" : "../res/projects/FTC.png"
     },
     {
@@ -47,7 +47,7 @@ projects = [
             <small>이 프로그램은 FTC 2023-2024 CENTERSTAGE 시즌을 위한 코드입니다.</small>
         """,
         "tag" : ["JAVA", "Android", "First Tech Challenge", "CENTERSTAGE", "Robotics"],
-        "github" : "https://github.com/TALOS-25309/FTC2023-2024_RobotSourceCode_Renewal",
+        "github" : "https://github.com/TALOS-25309/FTC2023-2024_RobotController_V2",
         "icon" : "../res/projects/FTC.png"
     },
     {
@@ -67,7 +67,7 @@ projects = [
             <small>이 프로그램은 FTC 2023-2024 CENTERSTAGE 시즌을 위한 코드입니다.</small>
         """,
         "tag" : ["JAVA", "Android", "First Tech Challenge", "CENTERSTAGE", "Robotics"],
-        "github" : "https://github.com/TALOS-25309/FTC2023-2024_RobotSourceCode",
+        "github" : "https://github.com/TALOS-25309/FTC2023-2024_RobotController",
         "icon" : "../res/projects/FTC.png"
     },
     {
@@ -86,7 +86,7 @@ projects = [
             <small>이 프로그램은 FTC 2022-2023 Power Play 시즌을 위한 코드입니다.</small>
         """,
         "tag" : ["JAVA", "Android", "First Tech Challenge", "Power Play", "Robotics"],
-        "github" : "https://github.com/TALOS-25309/FTC2022-2023_RobotSourceCode",
+        "github" : "https://github.com/TALOS-25309/FTC2022-2023_RobotController",
         "icon" : "../res/projects/FTC.png"
     }
 ]
