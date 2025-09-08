@@ -14,6 +14,18 @@ projects = [
         "icon" : "../res/icon.png"
     },
     {
+        "title" : "KAIST Student Welfare Committee Bus Reservation Website",
+        "date" : "2025.7-2025.8",
+        "summary" : "KAIST 학생복지위원회 버스 예약 웹사이트",
+        "description" : """
+            작성중
+        """,
+        "tag" : ["Web", "Frontend", "React"],
+        "open" : "https://bus.kaistwelfare.org",
+        "github" : "",
+        "icon" : ""
+    },
+    {
         "title" : "Road Runner Guide",
         "date" : "2025.1",
         "summary" : "FTC Road Runner 한국어 가이드 웹사이트",

@@ -1,5 +1,16 @@
 projects = [
     {
+        "title" : "Zombie Game",
+        "date" : "2024.7",
+        "summary" : "KAIST 2025년 후기 새내기 새로배움터 첫 번째 프로그램에서 활용된 좀비 게임 시뮬레이션 프로그램",
+        "description" : """
+            작성중
+        """,
+        "tag" : ["C++", "SDL2"],
+        "github" : "https://github.com/FFLiK-Archive/ZombieGame",
+        "icon" : ""
+    },
+    {
         "title" : "Hand Simulator",
         "date" : "2024.1 - 2024.12",
         "summary" : "사실적으로 손의 움직임을 시뮬레이팅 할 수 있는 프로그램",
