@@ -31,7 +31,7 @@ def writeProjects(content, projects):
         description_div.find('p', class_="project-summary").string = project['summary']
         description_div.find('div', class_="project-description")['class'] = copy.deepcopy(description_div.find('div', class_="project-description")['class'])
         description_div.find('div', class_="project-description")['class'].append("openclose-linker" + str(cnt))
-         description_div.find('small', class_="project-description-text").append(BeautifulSoup(project['description'], 'html.parser'))
+        description_div.find('small', class_="project-description-text").append(BeautifulSoup(project['description'], 'html.parser'))
         description_div.find('a', class_="openclose")['href'] = "openclose-linker" + str(cnt)
         for tag in project['tag']:
             a = copy.deepcopy(description_div.find('a', class_="project-tag"))

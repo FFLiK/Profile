@@ -20,6 +20,34 @@
     "res" : "dev/hangul.pdf"
   },
 
+  "33-welfare-fall-design" : {
+    "title" : "Designs for the 33rd Student Welfare Committee",
+    "description" : "2025년 가을학기 제33대 학생복지위원회 사업 관련 디자인 작업물",
+    "type" : "img",
+    "res" : "design/33-welfare-fall-design.png"
+  },
+
+  "23-fsc-fall-design" : {
+    "title" : "Designs for the 23rd Freshman Student Council",
+    "description" : "2025년 가을학기 제23대 새내기학생회 사업 관련 디자인 작업물",
+    "type" : "img",
+    "res" : "design/23-fsc-fall-design.png"
+  },
+
+  "25kamf-welfare-poster" : {
+    "title" : "2025 KAMF - Student Welfare Committee Booth Posters",
+    "description" : "2025 KAMF 학생복지위원회 부스 포스터 디자인",
+    "type" : "img",
+    "res" : "design/25kamf-welfare-poster.png"
+  },
+
+  "22-fsc-spring-design" : {
+    "title" : "Designs for the 22nd Freshman Student Council",
+    "description" : "2025년 봄학기 제22대 새내기학생회 사업 관련 디자인 작업물",
+    "type" : "img",
+    "res" : "design/22-fsc-spring-design.png"
+  },
+
   "24ksasf-pstr" : {
     "title" : "KSASF 2024 Poster",
     "description" : "KSA 과학축전 2024 포스터 디자인",

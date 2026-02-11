@@ -1,19 +1,49 @@
 projects = [
     {
-        "title" : "KSASF 2024 Banners of The Main Auditorium's Columns",
-        "date" : "2024.7",
-        "summary" : "KSA 과학축전 2024 대강당 기둥 현수막 디자인",
+        "title" : "Designs for the 33rd Student Welfare Committee (Fall 2025)",
+        "date" : "2025.8-2025.12",
+        "summary" : "2025년 가을학기 제33대 학생복지위원회 사업 관련 디자인 작업물",
         "description" : """
-        이 현수막은 전국의 초중등 학생을 대상으로 개최한 한국과학영재학교 과학축전 KSASF 2024에서 사용된 대강당 기둥 현수막입니다. <br>
-        KSASF 2024의 슬로건인 "미래를 향한 과학" 그리고 "환경과 에너지"라는 주제를 나타내기 위하여
-        바다, 숲, 그리고 우주 세 가지 공간을 배경으로 한 현수막을 제작하였습니다.
-        색감과 도형 배치를 적절히 조정하여 몽환적이고 고급스러운 느낌을 주었으며,
-        각 현수막의 위쪽에는 KSASF 2024 포스터에 활용된 톱니바퀴를 배치하여 공학적인 분위기를 추가하였습니다.
-        마지막으로 밝은 미래를 향한 도약이라는 희망적인 분위기를 표현하기 위해 빛줄기 효과를 추가하고,
-        글자에는 외부 광선 효과를 넣었습니다.
+        작성중
         """,
-        "tag" : ["KSASF 2024", "Banner"],
-        "open" : "../display/viewer.html?proj=24ksasf-aud-col",
+        "tag" : ["33rd Student Welfare Committee", "Cardnews", "Poster", "Maintenance"],
+        "open" : "../display/viewer.html?proj=33-welfare-fall-design",
+        "download" : "file",
+        "icon" : ""
+    },
+    {
+        "title" : "Designs for the 23rd Freshman Student Council (Fall 2025)",
+        "date" : "2025.8-2025.12",
+        "summary" : "2025년 가을학기 제23대 새내기학생회 사업 관련 디자인 작업물",
+        "description" : """
+        작성중
+        """,
+        "tag" : ["23rd Freshman Student Council", "Cardnews", "Poster", "Banner"],
+        "open" : "../display/viewer.html?proj=23-fsc-fall-design",
+        "download" : "file",
+        "icon" : ""
+    },
+    {
+        "title" : "2025 KAMF - Student Welfare Committee Booth Posters",
+        "date" : "2025.9",
+        "summary" : "2025 KAMF 학생복지위원회 부스 포스터 디자인",
+        "description" : """
+        작성중
+        """,
+        "tag" : ["2025 KAMF", "Posters"],
+        "open" : "../display/viewer.html?proj=25kamf-welfare-poster",
+        "download" : "file",
+        "icon" : ""
+    },
+    {
+        "title" : "Designs for the 22nd Freshman Student Council (Spring 2025)",
+        "date" : "2025.3-2025.6",
+        "summary" : "2025년 봄학기 제22대 새내기학생회 사업 관련 디자인 작업물",
+        "description" : """
+        작성중
+        """,
+        "tag" : ["22nd Freshman Student Council", "Cardnews"],
+        "open" : "../display/viewer.html?proj=22-fsc-spring-design",
         "download" : "file",
         "icon" : ""
     },
