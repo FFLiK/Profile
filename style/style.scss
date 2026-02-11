@@ -9,10 +9,11 @@ body {
   font-family: "Pretendard", sans-serif;
   color: $white;
 
-  -webkit-user-select:none;
-  -moz-user-select:none;
-  -ms-user-select:none;
-  user-select:none
+  /* Remove user-select restriction for accessibility */
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
 }
 
 body.display {

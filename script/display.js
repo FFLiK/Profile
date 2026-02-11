@@ -16,9 +16,18 @@ function displayProject() {
 
     //read json file
     fetch("projects.json")
-        .then(response => response.json())
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            return response.json();
+        })
         .then(data => {
             const projectData = data[project];
+            if (!projectData) {
+                throw new Error(`Project '${project}' not found`);
+            }
+            
             const projectTitle = projectData.title;
             const projectDescription = projectData.description;
             const projectType = projectData.type;
@@ -57,5 +66,10 @@ function displayProject() {
                     openclose();
                 });
             });
+        })
+        .catch(error => {
+            console.error('Error loading project:', error);
+            document.querySelector(".display-title").innerHTML = "오류 발생";
+            document.querySelector(".display-description").innerHTML = "프로젝트를 불러올 수 없습니다. 나중에 다시 시도해주세요.";
         });
 }

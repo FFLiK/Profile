@@ -5,8 +5,32 @@ window.onload = function(){
             setIconAnimation();
             setBackgroundIconAnimation();
             openclose();
+            setupKeyboardNavigation();
         });
     });
+}
+
+function setupKeyboardNavigation() {
+    // Add keyboard navigation for links
+    const links = document.querySelectorAll('a[href], button');
+    links.forEach(link => {
+        link.addEventListener('keydown', function(e) {
+            if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                this.click();
+            }
+        });
+    });
+
+    // Add focus styles for better visibility
+    const style = document.createElement('style');
+    style.textContent = `
+        a:focus, button:focus {
+            outline: 2px solid $fflik;
+            outline-offset: 2px;
+        }
+    `;
+    document.head.appendChild(style);
 }
 
 function setAnimation() {
